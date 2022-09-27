@@ -1,0 +1,21 @@
+{
+  "name": "pulumi-challenge",
+  "main": "index.ts",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@checkly/pulumi": "^1.1.2",
+    "@pulumi/aws": "^5.16.0",
+    "@pulumi/awsx": "^0.40.0",
+    "@pulumi/pulumi": "^3.0.0",
+    "dotenv": "^16.0.2",
+    "got": "^11.8.0",
+    "mime": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/mime": "^3.0.1",
+    "@types/node": "^14",
+    "prettier": "^2.7.1"
+  }
+}
